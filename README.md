@@ -10,6 +10,10 @@ Check the Bookworm website for details on features, shortcuts, installation guid
 
 ## Building, Testing, and Installation
 
+(For ubuntu 16.04 only) While Bookworm was originally designed for Elementary OS. Ubuntu 16.04 needs following PPA to install the libgranite3 library:
+
+`sudo add-apt-repository ppa:elementary-os/stable`
+
 You'll need the following dependencies to build:
 * libgranite-dev
 * libwebkit2gtk-4.0-37
